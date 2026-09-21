@@ -1,0 +1,47 @@
+                                                       EU-15 (..              EU-15 (...1
+Sample (EU_Membership)                  1. EU-15 (Advanced Core) 1. EU-15 (Advanced Core)
+Dependent Var.:                                        zlog_prod                zlog_prod
+                                                                                         
+HTC Share (Z-score)                                     0.031                            
+                                                       (0.017)                           
+Physical Capital (Z-score)                              0.108**                    0.051 
+                                                       (0.033)                    (0.057)
+Tertiary Education (Z-score)                           -0.144***                  -0.014 
+                                                       (0.034)                    (0.115)
+HTC Share [2SLS] (Z-score)                                                        -1.01* 
+                                                                                  (0.403)
+Fixed-Effects:                                         ---------                ---------
+Country_Code                                                 Yes                      Yes
+Year                                                         Yes                      Yes
+Varying Slopes:                                        ---------                ---------
+Year (Country_Code)                                          Yes                      Yes
+_______________________________________                _________                _________
+S.E.: Clustered                                          by: geo                  by: geo
+Observations                                               3,295                    2,790
+R2                                                       0.60344                  0.62088
+F-test (1st stage), HTC Share (Z-score)                       --                   23.268
+
+                                                         CEE (OLS)                   CEE (IV)
+Sample (EU_Membership)                  2. New Member States (CEE) 2. New Member States (CEE)
+Dependent Var.:                                          zlog_prod                  zlog_prod
+                                                                                             
+HTC Share (Z-score)                                         0.016                            
+                                                           (0.015)                           
+Physical Capital (Z-score)                                  0.040*                     0.046 
+                                                           (0.016)                    (0.033)
+Tertiary Education (Z-score)                                0.030                     -0.127 
+                                                           (0.060)                    (0.181)
+HTC Share [2SLS] (Z-score)                                                             0.625 
+                                                                                      (1.00) 
+Fixed-Effects:                                           ---------                  ---------
+Country_Code                                                   Yes                        Yes
+Year                                                           Yes                        Yes
+Varying Slopes:                                          ---------                  ---------
+Year (Country_Code)                                            Yes                        Yes
+_______________________________________                  _________                  _________
+S.E.: Clustered                                            by: geo                    by: geo
+Observations                                                 1,099                        683
+R2                                                         0.92442                    0.94465
+F-test (1st stage), HTC Share (Z-score)                         --                    0.93578
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

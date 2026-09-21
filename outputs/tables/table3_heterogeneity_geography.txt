@@ -1,0 +1,77 @@
+                                                              iv_geo.1
+Sample (Geo_Region)                          1. West (Industrial Core)
+Dependent Var.:                                              zlog_prod
+                                                                      
+HTC Share [2SLS] (t-1, Z-score)                               0.172***
+                                                             (0.037)  
+Log Real GFCF/Worker (t-1, Z-score)                           0.168   
+                                                             (0.086)  
+Tertiary Education (t-1, Z-score)                            -0.022   
+                                                             (0.052)  
+Fixed-Effects:                                               ---------
+Country_Code                                                       Yes
+Year                                                               Yes
+________________________________________                     _________
+S.E.: Clustered                                                by: geo
+Observations                                                     1,869
+R2                                                             0.70023
+F-test (1st stage), HTC Share (t-1, Z-score)                   2,788.6
+
+                                                              iv_geo.2
+Sample (Geo_Region)                          2. East (CEE Convergence)
+Dependent Var.:                                              zlog_prod
+                                                                      
+HTC Share [2SLS] (t-1, Z-score)                               -0.478  
+                                                              (0.663) 
+Log Real GFCF/Worker (t-1, Z-score)                            0.661**
+                                                              (0.232) 
+Tertiary Education (t-1, Z-score)                              0.562  
+                                                              (0.661) 
+Fixed-Effects:                                               ---------
+Country_Code                                                       Yes
+Year                                                               Yes
+________________________________________                     _________
+S.E.: Clustered                                                by: geo
+Observations                                                       590
+R2                                                             0.95135
+F-test (1st stage), HTC Share (t-1, Z-score)                    8.0970
+
+                                                             iv_geo.3
+Sample (Geo_Region)                          3. South (Mediterranean)
+Dependent Var.:                                             zlog_prod
+                                                                     
+HTC Share [2SLS] (t-1, Z-score)                              0.069   
+                                                            (0.060)  
+Log Real GFCF/Worker (t-1, Z-score)                          0.330***
+                                                            (0.053)  
+Tertiary Education (t-1, Z-score)                            0.159** 
+                                                            (0.055)  
+Fixed-Effects:                                              ---------
+Country_Code                                                      Yes
+Year                                                              Yes
+________________________________________                    _________
+S.E.: Clustered                                               by: geo
+Observations                                                      967
+R2                                                            0.84825
+F-test (1st stage), HTC Share (t-1, Z-score)                  2,082.7
+
+                                                                 iv_geo.4
+Sample (Geo_Region)                          4. North (Nordics & Baltics)
+Dependent Var.:                                                 zlog_prod
+                                                                         
+HTC Share [2SLS] (t-1, Z-score)                                  0.091***
+                                                            (1e-6)       
+Log Real GFCF/Worker (t-1, Z-score)                              0.233***
+                                                            (1e-6)       
+Tertiary Education (t-1, Z-score)                                0.263***
+                                                            (1e-6)       
+Fixed-Effects:                                              -------------
+Country_Code                                                          Yes
+Year                                                                  Yes
+________________________________________                    _____________
+S.E.: Clustered                                                   by: geo
+Observations                                                           46
+R2                                                                0.99672
+F-test (1st stage), HTC Share (t-1, Z-score)                       170.25
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

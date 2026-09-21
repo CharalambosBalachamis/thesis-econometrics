@@ -1,0 +1,22 @@
+                                             2SLS (B.. 2SLS (+.. 2SLS (F.. 2SLS (S..
+Dependent Var.:                              zlog_prod zlog_prod zlog_prod zlog_prod
+                                                                                    
+HTC Share [2SLS] (t-1, Z-score)               0.228***  0.149***  0.130***  0.111** 
+                                             (0.031)   (0.030)   (0.036)   (0.035)  
+Log Real GFCF/Worker (t-1, Z-score)                     0.312***  0.308***  0.276***
+                                                       (0.068)   (0.068)   (0.073)  
+Tertiary Education (t-1, Z-score)                                 0.039     0.072   
+                                                                 (0.040)   (0.048)  
+Fixed-Effects:                               --------- --------- --------- ---------
+Country_Code                                       Yes       Yes       Yes       Yes
+Year                                               Yes       Yes       Yes       Yes
+Varying Slopes:                              --------- --------- --------- ---------
+Year (Country_Code)                                 No        No        No       Yes
+________________________________________     _________ _________ _________ _________
+S.E.: Clustered                                by: geo   by: geo   by: geo   by: geo
+Observations                                     3,472     3,472     3,472     3,472
+R2                                             0.91459   0.94886   0.95148   0.96072
+F-test (1st stage), HTC Share (t-1, Z-score)   6,585.7   5,413.7   2,568.7   3,432.3
+Wald (joint nullity)                            55.524    97.622    79.131    68.066
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

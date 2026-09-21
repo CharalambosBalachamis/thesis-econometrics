@@ -1,0 +1,49 @@
+                                        West (O.. West (IV) East (O.. East (IV) South (..
+Sample (Geo_Region)                       1. West   1. West   2. East   2. East  3. South
+Dependent Var.:                         zlog_prod zlog_prod zlog_prod zlog_prod zlog_prod
+                                                                                         
+HTC Share (Z-Score)                      0.039                 0.014               0.036 
+                                        (0.023)               (0.015)             (0.024)
+Physical Capital (Z-Score)               0.128**     0.098     0.024     0.029     0.182*
+                                        (0.039)     (0.051)   (0.016)   (0.023)   (0.082)
+Tertiary Education (Z-Score)            -0.133***   -0.069    -0.028    -0.046    -0.214 
+                                        (0.032)     (0.076)   (0.066)   (0.064)   (0.111)
+HTC Share [2SLS] (Z-Score)                          -0.528              -0.046           
+                                                    (0.352)             (0.158)          
+Fixed-Effects:                          --------- --------- --------- --------- ---------
+geo                                           Yes       Yes       Yes       Yes       Yes
+Year                                          Yes       Yes       Yes       Yes       Yes
+Country_Code                                  Yes       Yes       Yes       Yes       Yes
+Varying Slopes:                         --------- --------- --------- --------- ---------
+Year (Country_Code)                           Yes       Yes       Yes       Yes       Yes
+_______________________________________ _________ _________ _________ _________ _________
+S.E.: Clustered                           by: geo   by: geo   by: geo   by: geo   by: geo
+Observations                                1,994     1,869       924       591     1,133
+R2                                        0.65864   0.65377   0.94460   0.95295   0.66498
+F-test (1st stage), HTC Share (Z-Score)        --    13.278        --    6.0904        --
+
+                                        South (...1 North (..    North (IV)
+Sample (Geo_Region)                        3. South  4. North      4. North
+Dependent Var.:                           zlog_prod zlog_prod     zlog_prod
+                                                                           
+HTC Share (Z-Score)                                    0.086               
+                                                      (0.044)              
+Physical Capital (Z-Score)                   0.155    -0.028       0.192***
+                                            (0.119)   (0.064) (1e-6)       
+Tertiary Education (Z-Score)                 0.004     0.003       0.269***
+                                            (0.619)   (0.177) (1e-6)       
+HTC Share [2SLS] (Z-Score)                  -0.914                 0.092***
+                                            (1.66)            (1e-6)       
+Fixed-Effects:                            --------- --------- -------------
+geo                                             Yes       Yes           Yes
+Year                                            Yes       Yes           Yes
+Country_Code                                    Yes       Yes           Yes
+Varying Slopes:                           --------- --------- -------------
+Year (Country_Code)                             Yes       Yes           Yes
+_______________________________________   _________ _________ _____________
+S.E.: Clustered                             by: geo   by: geo       by: geo
+Observations                                    967       343            46
+R2                                          0.64923   0.69909       0.99547
+F-test (1st stage), HTC Share (Z-Score)      2.4083        --        373.49
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

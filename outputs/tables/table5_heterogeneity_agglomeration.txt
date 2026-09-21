@@ -1,0 +1,20 @@
+                                                          iv_agg..1                 iv_agg..2
+Sample (Agglomeration)                       1. Capital City Region 2. Non-Capital Hinterland
+Dependent Var.:                                           zlog_prod                 zlog_prod
+                                                                                             
+HTC Share [2SLS] (t-1, Z-score)                              0.229                   0.195***
+                                                            (0.636)                 (0.037)  
+Log Real GFCF/Worker (t-1, Z-score)                          0.228                   0.275***
+                                                            (0.293)                 (0.072)  
+Tertiary Education (t-1, Z-score)                           -0.042                  -0.019   
+                                                            (0.092)                 (0.036)  
+Fixed-Effects:                                            ---------                 ---------
+Country_Code                                                    Yes                       Yes
+Year                                                            Yes                       Yes
+________________________________________                  _________                 _________
+S.E.: Clustered                                             by: geo                   by: geo
+Observations                                                    342                     3,130
+R2                                                          0.97961                   0.95317
+F-test (1st stage), HTC Share (t-1, Z-score)                 1.0878                   1,885.5
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

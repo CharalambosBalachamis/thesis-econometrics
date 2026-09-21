@@ -1,0 +1,49 @@
+                                                       EU-15 (..              EU-15 (...1
+Sample (EU_Membership)                  1. EU-15 (Advanced Core) 1. EU-15 (Advanced Core)
+Dependent Var.:                                        zlog_prod                zlog_prod
+                                                                                         
+HTC Share (Z-Score)                                     0.027                            
+                                                       (0.017)                           
+Physical Capital (Z-Score)                              0.108**                    0.050 
+                                                       (0.033)                    (0.058)
+Tertiary Education (Z-Score)                           -0.164***                  -0.012 
+                                                       (0.033)                    (0.117)
+HTC Share [2SLS] (Z-Score)                                                        -1.02* 
+                                                                                  (0.411)
+Fixed-Effects:                                         ---------                ---------
+geo                                                          Yes                      Yes
+Year                                                         Yes                      Yes
+Country_Code                                                 Yes                      Yes
+Varying Slopes:                                        ---------                ---------
+Year (Country_Code)                                          Yes                      Yes
+_______________________________________                _________                _________
+S.E.: Clustered                                          by: geo                  by: geo
+Observations                                               3,295                    2,790
+R2                                                       0.61445                  0.62201
+F-test (1st stage), HTC Share (Z-Score)                       --                   22.984
+
+                                                         CEE (OLS)                   CEE (IV)
+Sample (EU_Membership)                  2. New Member States (CEE) 2. New Member States (CEE)
+Dependent Var.:                                          zlog_prod                  zlog_prod
+                                                                                             
+HTC Share (Z-Score)                                        0.019                             
+                                                          (0.015)                            
+Physical Capital (Z-Score)                                 0.040*                      0.046 
+                                                          (0.016)                     (0.035)
+Tertiary Education (Z-Score)                              -2.06e-5                    -0.132 
+                                                          (0.062)                     (0.197)
+HTC Share [2SLS] (Z-Score)                                                             0.665 
+                                                                                      (1.15) 
+Fixed-Effects:                                           ---------                  ---------
+geo                                                            Yes                        Yes
+Year                                                           Yes                        Yes
+Country_Code                                                   Yes                        Yes
+Varying Slopes:                                          ---------                  ---------
+Year (Country_Code)                                            Yes                        Yes
+_______________________________________                  _________                  _________
+S.E.: Clustered                                            by: geo                    by: geo
+Observations                                                 1,099                        683
+R2                                                         0.92737                    0.94473
+F-test (1st stage), HTC Share (Z-Score)                         --                    0.82689
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

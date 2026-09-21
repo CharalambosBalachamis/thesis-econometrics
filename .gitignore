@@ -1,0 +1,10 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio local settings
+.Rproj.user/
+
+# Ignore raw data (optional, remove if you want to upload raw data)
+# data/raw/

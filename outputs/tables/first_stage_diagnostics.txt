@@ -1,0 +1,6 @@
+=== FIRST-STAGE INSTRUMENT DIAGNOSTIC REPORT (HTC ONLY) ===
+Execution Date: 2026-09-19 20:58:26.092798
+Total Panel Observations: 5703 across 239 regions
+
+HTC Bartik Correlation (lag_HTC vs. lag_Bartik): r = 0.829 (N = 3473 complete pairs)
+===========================================================

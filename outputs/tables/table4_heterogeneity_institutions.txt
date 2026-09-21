@@ -1,0 +1,39 @@
+                                                          iv_inst.1
+Sample (EU_Membership)                       1. EU-15 Advanced Core
+Dependent Var.:                                           zlog_prod
+                                                                   
+HTC Share [2SLS] (t-1, Z-score)                            0.130***
+                                                          (0.033)  
+Log Real GFCF/Worker (t-1, Z-score)                        0.204** 
+                                                          (0.066)  
+Tertiary Education (t-1, Z-score)                          0.041   
+                                                          (0.042)  
+Fixed-Effects:                                            ---------
+Country_Code                                                    Yes
+Year                                                            Yes
+________________________________________                  _________
+S.E.: Clustered                                             by: geo
+Observations                                                  2,790
+R2                                                          0.83463
+F-test (1st stage), HTC Share (t-1, Z-score)                5,035.4
+
+                                                              iv_inst.2
+Sample (EU_Membership)                       2. New Member States (CEE)
+Dependent Var.:                                               zlog_prod
+                                                                       
+HTC Share [2SLS] (t-1, Z-score)                                -0.446  
+                                                               (0.556) 
+Log Real GFCF/Worker (t-1, Z-score)                             0.671**
+                                                               (0.225) 
+Tertiary Education (t-1, Z-score)                               0.495  
+                                                               (0.513) 
+Fixed-Effects:                                                ---------
+Country_Code                                                        Yes
+Year                                                                Yes
+________________________________________                      _________
+S.E.: Clustered                                                 by: geo
+Observations                                                        682
+R2                                                              0.95717
+F-test (1st stage), HTC Share (t-1, Z-score)                     9.5591
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

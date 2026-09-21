@@ -1,0 +1,21 @@
+                                    OLS (Ba.. OLS (+C.. OLS (Fu.. OLS (So..
+Dependent Var.:                     zlog_prod zlog_prod zlog_prod zlog_prod
+                                                                           
+HTC Share (t-1, Z-score)             0.219***  0.142***  0.132***  0.122***
+                                    (0.022)   (0.020)   (0.019)   (0.020)  
+Log Real GFCF/Worker (t-1, Z-score)            0.320***  0.317***  0.294***
+                                              (0.057)   (0.059)   (0.064)  
+Tertiary Education (t-1, Z-score)                        0.020     0.035   
+                                                        (0.027)   (0.032)  
+Fixed-Effects:                      --------- --------- --------- ---------
+Country_Code                              Yes       Yes       Yes       Yes
+Year                                      Yes       Yes       Yes       Yes
+Varying Slopes:                     --------- --------- --------- ---------
+Year (Country_Code)                        No        No        No       Yes
+___________________________________ _________ _________ _________ _________
+S.E.: Clustered                       by: geo   by: geo   by: geo   by: geo
+Observations                            4,389     4,389     4,389     4,389
+R2                                    0.94443   0.96440   0.96446   0.97117
+Within R2                             0.41527   0.62540   0.62604   0.63903
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

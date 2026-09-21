@@ -1,0 +1,24 @@
+                                         TWFE OLS   2SLS IV
+Dependent Var.:                         zlog_prod zlog_prod
+                                                           
+HTC Share (Z-Score)                      0.025             
+                                        (0.013)            
+Physical Capital (Z-Score)               0.093***    0.067 
+                                        (0.025)     (0.039)
+Tertiary Education (Z-Score)            -0.154***   -0.050 
+                                        (0.030)     (0.084)
+HTC Share [2SLS] (Z-Score)                          -0.731*
+                                                    (0.287)
+Fixed-Effects:                          --------- ---------
+geo                                           Yes       Yes
+Year                                          Yes       Yes
+Country_Code                                  Yes       Yes
+Varying Slopes:                         --------- ---------
+Year (Country_Code)                           Yes       Yes
+_______________________________________ _________ _________
+S.E.: Clustered                           by: geo   by: geo
+Observations                                4,394     3,473
+R2                                        0.67275   0.66784
+F-test (1st stage), HTC Share (Z-Score)        --    35.892
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
