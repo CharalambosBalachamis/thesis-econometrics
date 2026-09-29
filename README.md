@@ -52,13 +52,7 @@ Repository Structure
 
     /outputs/tables/: Publication-ready regression tables.
 
-How to Run
 
-    Clone this repository.
-
-    Open thesis.Rproj in RStudio.
-
-    Run the master script to execute the pipeline from start to finish:
 
 ## How to Run
 1. Clone this repository.
